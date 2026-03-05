@@ -1,0 +1,26 @@
+.container{
+    width: 1440px;
+    margin: 0 auto;
+}
+.gallery{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    flex-basis: calc((100% - 20px) / 3);
+    justify-content: center;
+}
+.gallery-image{
+    width: 360px;
+    height: 300px;
+    border-radius: 5px;
+    transition: transform 0.3s ease;
+}
+.gallery-image:hover{
+    transform: scale(1.05);
+}
+ul{
+    list-style: none;
+}
+.basicLightbox {
+  background: rgba(46, 47, 66, 0.8) !important;
+}
